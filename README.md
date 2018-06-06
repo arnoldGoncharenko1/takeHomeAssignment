@@ -16,7 +16,7 @@ gitHubService - A file containing all the retrofit get calls. Is used by the git
 # utils
 Classes and functions to assist me in idling and animations
 
-# viewModel:
+# viewModel
 listViewModel: This is the view model that uses the repo model combined with the getRepoList service to retrieve the data and add it to a Observable to be used on the view
 
 userViewModel: This is the view model that uses the user model combined with the getUser service to retrieve the data and add it to a Observable to be used on the view
