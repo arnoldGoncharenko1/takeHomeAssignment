@@ -31,7 +31,7 @@ MainActivtiy: The Heart of the app, where everything starts. This view is respon
 RepoListFragment: The view responsible for displaying the repo list and managing the click callback so that it can display the appropriate information in relation to the clicked recycler view portion that was clicked. It uses it’s subscriptions to listViewModel to display the list.
 
 # Development Retrospective
-Looking back over my code that I created, I feel that there would be somethings that I would fix/add. Notably I would add more documentation to paint a more clearer picture of what my code does to a outsider. I would also use more libraries such as RxJava to create even more readable code. I would also combine both the repo and user retrieval into a single functionality. Getting them separately is redundant since both have the same requirements (The username) to get the data. Finally I would also consider testing on devices with a much higher or lower pixel density and/or resolution.
+Looking back over my code that I created, I feel that there would be somethings that I would fix/add. Notably I would add more documentation to paint a more clearer picture of what my code does to a outsider. Secondly I would also use more libraries such as RxJava to create even more readable code. Thirdly I would also combine both the repo and user retrieval into a single functionality. Getting them separately is redundant since both have the same requirements (The username) to get the data. Finally I would also consider testing on devices with a much higher or lower pixel density and/or resolution.
 
 # Issues
 While doing this take home assignment there was a single thing that I had trouble with and could not be fixed:
