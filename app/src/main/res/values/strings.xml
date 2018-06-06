@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Take Home</string>
+    <color name="grey">#FAFAFA</color>
+    <color name="dark_grey_2_transparent">#33000000</color>
+</resources>
