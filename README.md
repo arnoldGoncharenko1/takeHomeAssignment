@@ -1,7 +1,8 @@
 I have created a MVVM Pattern and the following descriptions will explain what each part does in the code. The MVVM pattern gave me a very decoupled, organized, and extendable code base to work with. If I ever need to create another view to display repo information ALL on one page (Rather than two sections like it is right now) all I would need to do is subscribe to the listViewModel and the data would be retrieved automatically. After I would just display it on the screen without any additional work.
 Models:
-	•	repoModel - Represents the repo, contains all the info that the view would require for displaying the repo
-	•	userModel - Represents the user, contains all the info that the view would require for displaying the user
+
+•repoModel - Represents the repo, contains all the info that the view would require for displaying the repo
+•userModel - Represents the user, contains all the info that the view would require for displaying the user
 
 Services: I had this section to further organize my code. This package would include the services required for getting the user and repos
 	•	githubImplementation - a class that stores the services needed to retrieve data for the app, including user and the repos that the user has. Is considered a singleton since only a single service instance would be required. Uses the gitHubService to conduct calls
