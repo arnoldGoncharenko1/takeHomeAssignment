@@ -78,10 +78,6 @@ public class RepoListFragment extends Fragment implements LifecycleOwner {
         projectListViewModel.getRepoListObservable().observe(this, new Observer<List<repoModel>>() {
             @Override
             public void onChanged(@Nullable List<repoModel> repos) {
-                //ArrayList<repoModel> newRepos = new ArrayList<>();
-                //newRepos.add(new repoModel("Test", "testest", "testDate", 0, 0));
-                //newRepos.add(new repoModel("Test1", "testest1", "testDate1", 20, 5));
-                //newRepos.add(new repoModel("Test2", "testest2", "testDate2", 40, 10));
                 if (repos != null) {
                     animationHelper.animateLayer(0, 1, getActivity().findViewById(R.id.repo_list), 1000);
                     animationHelper.moveObjectIntoView(100, 0, getActivity().findViewById(R.id.repo_list), 600);
